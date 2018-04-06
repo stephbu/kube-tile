@@ -25,18 +25,9 @@
   revision = "e57e3eeb33f795204c1ca35f56c44f83227c6e66"
   version = "v1.0.0"
 
-[[projects]]
-  branch = "master"
-  name = "k8s.io/apimachinery"
-  packages = [
-    "pkg/util/runtime",
-    "pkg/util/wait"
-  ]
-  revision = "0ed326127d3068118ef128c76673dad6005736ba"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "966a8e4702e325c7b1fe0f260f2ee244d6ea0f65eed089db1ddc7cf00c39311e"
+  inputs-digest = "cef5278ddc302f2bf3d055fecd956f1e8370804cce21d61b0ca0e4aa9654d102"
   solver-name = "gps-cdcl"
   solver-version = 1

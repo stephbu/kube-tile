@@ -7,7 +7,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/spf13/pflag"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/stephbu/kube-tiles/pkg/util/wait"
 )
 
 const logFlushFreqFlagName = "log-flush-frequency"
